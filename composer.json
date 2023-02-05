@@ -1,0 +1,30 @@
+{
+    "name": "aozen/language-detector",
+    "description": "This package provides a set of functions to detect and manipulate language-specific strings, including language detection, case conversion, and language-based filtering.",
+    "license": "MIT",
+    "keywords": [
+        "aozen",
+        "language-detector"
+    ],
+    "authors": [
+        {
+            "name": "Ali ÖZEN",
+            "email": "aliozendev@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "homepage": "https://github.com/aozen/language-detector",
+    "require-dev": {
+        "phpunit/phpunit": "^9.6"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {"Aozen\\LanguageDetector\\": "src"}
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Aozen\\LanguageDetector\\Tests\\": "tests"
+        }
+    }
+}
